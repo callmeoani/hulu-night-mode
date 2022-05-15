@@ -7,6 +7,9 @@ module.exports = {
       screens: {
         "3xl": "2000px",
       },
+      fontFamily: {
+        Roboto: ["Roboto", "sans-serif"],
+      },
     },
   },
   variants: {

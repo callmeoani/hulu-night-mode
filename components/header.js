@@ -11,8 +11,8 @@ import {
 
 function Header() {
   return (
-    <header>
-      <div className="flex sm:flex-row m-5 justify-between items-center h-auto flex-col">
+    <header className="w-full fixed top-0 left-0 z-10">
+      <div className="flex md:flex-row mb-5 md:justify-between items-center h-auto flex-col active:bg-yellow-300 ">
         <div className="flex flex-grow max-w-2xl">
           <HeaderItem title="HOME" Icon={HomeIcon} />
           <HeaderItem title="TRENDING" Icon={LightningBoltIcon} />
