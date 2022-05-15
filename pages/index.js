@@ -6,8 +6,6 @@ import Result from "../components/result";
 import request from "../utility/request";
 
 export default function Home({ results }) {
-  console.log(results);
-
   return (
     <div className="font-Roboto pt-48 md:pt-40">
       <Head>
