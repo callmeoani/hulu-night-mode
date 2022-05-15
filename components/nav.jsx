@@ -39,7 +39,7 @@ export default function Nav() {
     <nav className="relative">
       {isTabletOrMobile && (
         <button onClick={showNavigation}>
-          <MenuIcon className=" h-8 mb-1 ml-2" />
+          <MenuIcon className=" h-8 mb-1 pl-5" />
         </button>
       )}
       {(showNav || isDesktopOrLaptop) && <RealNav />}
